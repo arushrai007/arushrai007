@@ -1,4 +1,4 @@
-<div align="center">
+
 
 # Hi there, I'm Arush Rai! 👋
 ### CTO at IGNITE | Full Stack Developer | AI Enthusiast | Data Analyst
@@ -13,7 +13,7 @@
 
 * 🔭 **I’m currently working on:** Enhancing scalable architectures with Microservices.
 * 🌱 **I’m currently learning:** Advanced DSA & System Design.
-* [cite_start]🏆 **Achievement:** Secured **3rd Place** in Code-A-Haunt Hackathon 2024[cite: 59].
+* 🏆 **Achievement:** Secured **3rd Place** in Code-A-Haunt Hackathon 2024.
 
 ---
 

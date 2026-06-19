@@ -1,7 +1,7 @@
 
 
 # Hi there, I'm Arush Rai! 👋
-### CTO at IGNITE | Full Stack Developer | AI Enthusiast | Data Analyst
+### MD at IGNITE | Full Stack Developer | AI Enthusiast | AI/ML | DATA SCIENCE
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/arushrai)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail)](mailto:arushrai007@gmail.com)

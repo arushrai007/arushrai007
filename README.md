@@ -9,7 +9,7 @@
 ---
 
 ### 🚀 About Me
-[cite_start]I am a **B.Tech CSE** student and the **Chief Technology Officer (CTO)** at IGNITE[cite: 9, 70]. I specialize in building scalable web applications and integrating them with AI/ML solutions. My passion lies in solving real-world problems—whether it's revolutionizing job searching with AI or showcasing culture through tech.
+I am a **B.Tech CSE** student and the **Managing Director** at IGNITE LPU. I specialize in building scalable web applications and integrating them with AI/ML solutions. My passion lies in solving real-world problems—whether it's revolutionizing job searching with AI or showcasing culture through tech.
 
 * 🔭 **I’m currently working on:** Enhancing scalable architectures with Microservices.
 * 🌱 **I’m currently learning:** Advanced DSA & System Design.
@@ -52,8 +52,8 @@
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| **Job Jugaad** | [cite_start]An AI-based job recommendation platform with an ATS Resume Scanner[cite: 16, 20]. | Django, React, NLP, Docker |
-| **Heritage India** | [cite_start]*Award-Winning* interactive map website showcasing Indian culture[cite: 35, 59]. | FastAPI, React.js, MongoDB |
+| **Job Jugaad** | ]An AI-based job recommendation platform with an ATS Resume Scanner[cite: 16, 20]. | Django, React, NLP, Docker |
+| **Heritage India** |*Award-Winning* interactive map website showcasing Indian culture[cite: 35, 59]. | FastAPI, React.js, MongoDB |
 | **AI Travel Bot** | [cite_start]A real-time chatbot for personalized travel plans and weather updates[cite: 23]. | Python, Streamlit, OpenAI |
 | **Netflix Clone** | [cite_start]Dynamic UI with movie trailers and authentication[cite: 26, 30]. | React.js, Firebase, TMDB API |
 

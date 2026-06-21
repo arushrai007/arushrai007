@@ -54,8 +54,8 @@ I am a **B.Tech CSE** student and the **Managing Director** at IGNITE LPU. I spe
 | :--- | :--- | :--- |
 | **Job Jugaad** | ]An AI-based job recommendation platform with an ATS Resume Scanner[cite: 16, 20]. | Django, React, NLP, Docker |
 | **Heritage India** |*Award-Winning* interactive map website showcasing Indian culture[cite: 35, 59]. | FastAPI, React.js, MongoDB |
-| **AI Travel Bot** | [cite_start]A real-time chatbot for personalized travel plans and weather updates[cite: 23]. | Python, Streamlit, OpenAI |
-| **Netflix Clone** | [cite_start]Dynamic UI with movie trailers and authentication[cite: 26, 30]. | React.js, Firebase, TMDB API |
+| **AI Travel Bot** | A real-time chatbot for personalized travel plans and weather updates[cite: 23]. | Python, Streamlit, OpenAI |
+| **Netflix Clone** | Dynamic UI with movie trailers and authentication[cite: 26, 30]. | React.js, Firebase, TMDB API |
 
 ---
 

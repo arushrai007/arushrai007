@@ -1,6 +1,6 @@
 
 
-# Hi there, I'm Arush Rai! 👋
+# Hi there, Myself Arush Rai! 👋
 ### MD at IGNITE | Full Stack Developer | AI Enthusiast | AI/ML | DATA SCIENCE
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/arushrai)

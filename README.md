@@ -1,87 +1,134 @@
-# Hi there, I'm Arush Rai! 👋
+<div align="center">
 
-### B.Tech CSE Student | AI/ML & Data Engineer | Building RAG Pipelines & Scalable Systems
+# Heyy, This is Arush Rai 👋
+# Would love to connect and contribute
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/arushrai)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail)](mailto:arushrai007@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/arushrai007)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=B.Tech+CSE+Student;AI%2FML+%26+Agentic+Systems+Builder;RAG+Pipelines+%7C+LangGraph+%7C+LLM+Agents;Turning+Ideas+Into+Deployed+Products" alt="Typing SVG" />
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arushrai)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arushrai007@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-6366F1?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolioarush.vercel.app/)
+
+</div>
 
 ---
 
 ### 🚀 About Me
 
-I'm a **B.Tech CSE** student at Lovely Professional University, passionate about building production-grade AI systems — from RAG pipelines and LLM integrations to full MLOps deployments. I like taking ideas from prototype to live, deployed systems with proper CI/CD, observability, and zero-downtime design.
+I build **AI agents that don't just answer — they reason, critique, and act.** From multi-stage LangGraph agents that red-team their own decisions, to RAG pipelines with zero-downtime failover, I like shipping systems that are actually live and load-tested, not just notebooks.
 
-- 🔭 **Currently building:** Multi-modal AI document intelligence systems with RAG & vector search
+- 🔭 **Currently building:** Multi-agent systems with self-critique loops (LangGraph)
 - 🌱 **Currently learning:** Advanced System Design & Distributed Systems
-- 🏆 **Recent achievement:** Top 5% rank in NPTEL Cloud Computing
-- 💡 **200+ problems solved** across LeetCode & GeeksforGeeks
+- 🏆 **Top 5%** rank, NPTEL Cloud Computing
+- 💡 **200+** problems solved across LeetCode & GeeksforGeeks
 
 ---
 
 ### 🛠️ Tech Stack
 
-**Languages**
-<br>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,java,cpp,js,fastapi,spring,react,nextjs,docker,kubernetes,jenkins,prometheus,grafana,mongodb,mysql,git,powerbi&theme=dark" />
+</p>
 
-**AI / ML / Data**
+<details>
+<summary><b>🧠 AI / ML / Agents</b></summary>
 <br>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" />
 
-**Frameworks & Backend**
-<br>
-<img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" />
-<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+`LangGraph` `RAG Pipelines` `LLM Integration (Groq, Llama, HuggingFace)` `Embeddings` `Vector Search (Qdrant)` `NLP` `MLOps` `Statistical Analysis` `scikit-learn` `Pandas` `NumPy`
 
-**Databases**
-<br>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge" />
+</details>
 
-**DevOps & Tools**
+<details>
+<summary><b>⚙️ Backend & DevOps</b></summary>
 <br>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-<img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
-<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+
+`FastAPI` `Spring Boot` `Docker` `Kubernetes` `Jenkins CI/CD` `GitHub Actions` `Prometheus` `Grafana` `Maven`
+
+</details>
+
+<details>
+<summary><b>🗄️ Databases</b></summary>
+<br>
+
+`MySQL` `MongoDB` `Qdrant (Vector DB)` `SQLite` `PostgreSQL`
+
+</details>
 
 ---
 
 ### 💻 Featured Projects
 
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **[Doctel](https://github.com/arushrai007)** | Production RAG system with Parent-Document Retrieval, sub-second semantic search across multi-PDF corpora, deployed across 4 cloud services with 0-downtime inference. | FastAPI, Qdrant, RAG, Groq (Llama 3.1), Docker |
-| **[Job-Jugad](https://github.com/arushrai007)** | AI-based job recommendation platform with NLP-powered resume-JD match scoring and missing-skill suggestions. Full MLOps CI/CD via Jenkins & GitHub Actions. | Spring Boot, Python, Docker, Kubernetes, Jenkins |
-| **[Stock Market Analytics Dashboard](https://github.com/arushrai007)** | Scheduled pipeline auto-fetching live OHLC data for 50+ NSE/BSE stocks; star-schema data model with DAX measures for real-time market insights. | Python (yfinance), Power BI, DAX, Power Query |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🕵️ [The Dossier](https://ai-doessier.vercel.app/) — AI Investment Research Agent**
+
+Takes a company name → researches it live → drafts an Invest/Pass verdict → **red-teams its own reasoning** in an adversarial pass → revises to a final verdict. Includes a Track Record feature that checks past verdicts against real price movement.
+
+`LangGraph` `Groq/Llama 3.3 70B` `Tavily` `Next.js` `Zod`
+
+</td>
+<td width="50%" valign="top">
+
+**📊 [Xeno](https://xeno-ai-marketing-strategist.vercel.app/) — AI Marketing Strategist**
+
+An AI-native marketing platform — enter a business goal, and an agent analyzes customer data, builds Shopper DNA clusters, recommends & generates campaigns, launches them, and tracks callbacks live.
+
+`FastAPI` `React + Vite` `SQLAlchemy` `Async Microservices`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**📄 [Doctel](https://github.com/arushrai007) — Multi-Modal AI Document Intelligence**
+
+Production RAG system with Parent-Document Retrieval for precision search without context truncation. Sub-second semantic search across multi-PDF corpora, deployed across 4 cloud services with 0-downtime inference.
+
+`FastAPI` `Qdrant` `Groq (Llama 3.1)` `Docker`
+
+</td>
+<td width="50%" valign="top">
+
+**💼 [Job-Jugad](https://github.com/arushrai007) — AI Job Recommendation Platform**
+
+NLP-powered resume-JD match scoring with missing-skill suggestions. Full MLOps-style CI/CD — Jenkins + GitHub Actions automate build, test, and deploy on every commit, with live Prometheus/Grafana observability.
+
+`Spring Boot` `Docker` `Kubernetes` `Jenkins`
+
+</td>
+</tr>
+</table>
 
 ---
 
 ### 📜 Certifications
-- Machine Learning with Python — Anaconda
-- Cloud Computing — NPTEL (Top 5% rank)
-- Java Programming — iAmNeo EdTech
-- Hardware and Operating Systems — IBM
+
+<img src="https://img.shields.io/badge/Anaconda-Machine%20Learning%20with%20Python-44A833?style=flat-square&logo=anaconda&logoColor=white" />
+<img src="https://img.shields.io/badge/NPTEL-Cloud%20Computing%20(Top%205%25)-blue?style=flat-square" />
+<img src="https://img.shields.io/badge/iAmNeo-Java%20Programming-orange?style=flat-square" />
+<img src="https://img.shields.io/badge/IBM-Hardware%20%26%20OS-054ADA?style=flat-square&logo=ibm&logoColor=white" />
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub Activity
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=arushrai007&show_icons=true&theme=radical" alt="Arush's Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=arushrai007&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="165" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=arushrai007&theme=tokyonight&hide_border=true" height="165" />
 </p>
+
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arushrai007&layout=compact&theme=radical" alt="Top Langs" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arushrai007&layout=compact&theme=tokyonight&hide_border=true" height="150" />
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
+</picture>
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=arushrai007&style=flat-square&color=6366F1" alt="Profile views" />
 </p>

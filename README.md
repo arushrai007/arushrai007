@@ -1,134 +1,148 @@
+```markdown
 <div align="center">
 
-# Heyy, This is Arush Rai 👋
-# Would love to connect and contribute
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
+  <img src="./assets/dark.svg" alt="Arush Rai Banner" width="100%">
+</picture>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=B.Tech+CSE+Student;AI%2FML+%26+Agentic+Systems+Builder;RAG+Pipelines+%7C+LangGraph+%7C+LLM+Agents;Turning+Ideas+Into+Deployed+Products" alt="Typing SVG" />
+<br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arushrai)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arushrai007@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-6366F1?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolioarush.vercel.app/)
+# Arush Rai
+
+### AI Engineer • Machine Learning • Agentic AI • RAG Systems
+
+<p>
+Building production-ready AI systems with LangGraph, FastAPI, Vector Databases, and modern cloud-native technologies.
+</p>
+
+<p>
+<a href="https://portfolioarush.vercel.app">
+<img src="https://img.shields.io/badge/Portfolio-6366F1?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+<a href="https://linkedin.com/in/arushrai">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:arushrai007@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</p>
 
 </div>
 
 ---
 
-### 🚀 About Me
+# 👋 About Me
 
-I build **AI agents that don't just answer — they reason, critique, and act.** From multi-stage LangGraph agents that red-team their own decisions, to RAG pipelines with zero-downtime failover, I like shipping systems that are actually live and load-tested, not just notebooks.
+I build AI systems that don't just generate responses—they **reason, retrieve, critique, and act**.
 
-- 🔭 **Currently building:** Multi-agent systems with self-critique loops (LangGraph)
-- 🌱 **Currently learning:** Advanced System Design & Distributed Systems
-- 🏆 **Top 5%** rank, NPTEL Cloud Computing
-- 💡 **200+** problems solved across LeetCode & GeeksforGeeks
+My interests include:
 
----
-
-### 🛠️ Tech Stack
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,java,cpp,js,fastapi,spring,react,nextjs,docker,kubernetes,jenkins,prometheus,grafana,mongodb,mysql,git,powerbi&theme=dark" />
-</p>
-
-<details>
-<summary><b>🧠 AI / ML / Agents</b></summary>
-<br>
-
-`LangGraph` `RAG Pipelines` `LLM Integration (Groq, Llama, HuggingFace)` `Embeddings` `Vector Search (Qdrant)` `NLP` `MLOps` `Statistical Analysis` `scikit-learn` `Pandas` `NumPy`
-
-</details>
-
-<details>
-<summary><b>⚙️ Backend & DevOps</b></summary>
-<br>
-
-`FastAPI` `Spring Boot` `Docker` `Kubernetes` `Jenkins CI/CD` `GitHub Actions` `Prometheus` `Grafana` `Maven`
-
-</details>
-
-<details>
-<summary><b>🗄️ Databases</b></summary>
-<br>
-
-`MySQL` `MongoDB` `Qdrant (Vector DB)` `SQLite` `PostgreSQL`
-
-</details>
+- 🤖 Machine Learning
+- 🧠 Agentic AI
+- 📚 Retrieval-Augmented Generation (RAG)
+- ⚡ FastAPI & Backend Systems
+- ☁️ Cloud & MLOps
+- 📊 Data Engineering
 
 ---
 
-### 💻 Featured Projects
+# 🚀 Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 🕵️ The Dossier
+Production-grade AI Investment Research Agent with adversarial self-review.
 
-**🕵️ [The Dossier](https://ai-doessier.vercel.app/) — AI Investment Research Agent**
+**Stack**
 
-Takes a company name → researches it live → drafts an Invest/Pass verdict → **red-teams its own reasoning** in an adversarial pass → revises to a final verdict. Includes a Track Record feature that checks past verdicts against real price movement.
-
-`LangGraph` `Groq/Llama 3.3 70B` `Tavily` `Next.js` `Zod`
-
-</td>
-<td width="50%" valign="top">
-
-**📊 [Xeno](https://xeno-ai-marketing-strategist.vercel.app/) — AI Marketing Strategist**
-
-An AI-native marketing platform — enter a business goal, and an agent analyzes customer data, builds Shopper DNA clusters, recommends & generates campaigns, launches them, and tracks callbacks live.
-
-`FastAPI` `React + Vite` `SQLAlchemy` `Async Microservices`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**📄 [Doctel](https://github.com/arushrai007) — Multi-Modal AI Document Intelligence**
-
-Production RAG system with Parent-Document Retrieval for precision search without context truncation. Sub-second semantic search across multi-PDF corpora, deployed across 4 cloud services with 0-downtime inference.
-
-`FastAPI` `Qdrant` `Groq (Llama 3.1)` `Docker`
-
-</td>
-<td width="50%" valign="top">
-
-**💼 [Job-Jugad](https://github.com/arushrai007) — AI Job Recommendation Platform**
-
-NLP-powered resume-JD match scoring with missing-skill suggestions. Full MLOps-style CI/CD — Jenkins + GitHub Actions automate build, test, and deploy on every commit, with live Prometheus/Grafana observability.
-
-`Spring Boot` `Docker` `Kubernetes` `Jenkins`
-
-</td>
-</tr>
-</table>
+`LangGraph`
+`Groq`
+`Llama 3.3`
+`Next.js`
+`FastAPI`
+`Tavily`
 
 ---
 
-### 📜 Certifications
+### 📊 Xeno
 
-<img src="https://img.shields.io/badge/Anaconda-Machine%20Learning%20with%20Python-44A833?style=flat-square&logo=anaconda&logoColor=white" />
-<img src="https://img.shields.io/badge/NPTEL-Cloud%20Computing%20(Top%205%25)-blue?style=flat-square" />
-<img src="https://img.shields.io/badge/iAmNeo-Java%20Programming-orange?style=flat-square" />
-<img src="https://img.shields.io/badge/IBM-Hardware%20%26%20OS-054ADA?style=flat-square&logo=ibm&logoColor=white" />
+AI Marketing Strategist capable of customer intelligence, segmentation, campaign generation and analytics.
 
 ---
 
-### 📊 GitHub Activity
+### 📄 Doctel
+
+Production RAG Platform supporting semantic document search with Parent Document Retrieval.
+
+---
+
+### 💼 Job-Jugad
+
+Resume analysis platform with NLP-powered JD matching and complete CI/CD pipeline.
+
+---
+
+# ⚙️ Tech Stack
+
+### Languages
+
+Python • Java • C++ • JavaScript • SQL
+
+### AI
+
+LangGraph • LangChain • HuggingFace • RAG • Qdrant • Embeddings • NLP
+
+### Backend
+
+FastAPI • Spring Boot • REST APIs
+
+### Databases
+
+PostgreSQL • MongoDB • SQLite • MySQL • Qdrant
+
+### DevOps
+
+Docker • Kubernetes • Jenkins • GitHub Actions • Prometheus • Grafana
+
+### Frontend
+
+React • Next.js • TailwindCSS
+
+---
+
+# 📈 GitHub Analytics
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=arushrai007&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=arushrai007&theme=tokyonight&hide_border=true" height="165" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=arushrai007&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=arushrai007&theme=tokyonight&hide_border=true"/>
+
 </p>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arushrai007&layout=compact&theme=tokyonight&hide_border=true" height="150" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arushrai007&layout=compact&theme=tokyonight&hide_border=true"/>
+
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
-</picture>
+---
+
+# 🏆 Achievements
+
+- 🥇 Top 5% — NPTEL Cloud Computing
+- 💯 200+ DSA Problems Solved
+- 🚀 Production AI Projects
+- 🤖 Agentic AI & RAG Systems
+
+---
 
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=arushrai007&style=flat-square&color=6366F1" alt="Profile views" />
+
+<img src="https://komarev.com/ghpvc/?username=arushrai007&color=6366F1&style=flat-square"/>
+
 </p>
+```

@@ -1,9 +1,17 @@
 <div align="center">
 
-# Heyy, This is Arush Rai 👋
-# Would love to connect and contribute
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/light.svg">
+  <img src="assets/dark.svg" alt="Arush Rai banner" width="100%">
+</picture>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=B.Tech+CSE+Student;AI%2FML+%26+Agentic+Systems+Builder;RAG+Pipelines+%7C+LangGraph+%7C+LLM+Agents;Turning+Ideas+Into+Deployed+Products" alt="Typing SVG" />
+<br><br>
+
+<img src="assets/profile.png" width="160" height="160" style="border-radius:50%;object-fit:cover;" alt="Arush Rai" />
+
+<h2>Arush Rai</h2>
+<p>AI/ML & Agentic Systems Builder — B.Tech CSE Student</p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arushrai)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arushrai007@gmail.com)

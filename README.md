@@ -1,4 +1,4 @@
-```markdown
+
 <div align="center">
 
 <picture>
@@ -145,4 +145,3 @@ React • Next.js • TailwindCSS
 <img src="https://komarev.com/ghpvc/?username=arushrai007&color=6366F1&style=flat-square"/>
 
 </p>
-```

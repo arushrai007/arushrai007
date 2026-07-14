@@ -12,6 +12,10 @@
 <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/-Email-000?style=flat-square&logo=maildotru&logoColor=8B5CF6&labelColor=000000"/></a>
 <a href="https://your-portfolio-link.com"><img src="https://img.shields.io/badge/-Portfolio-000?style=flat-square&logo=vercel&logoColor=8B5CF6&labelColor=000000"/></a>
 
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=your-username&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS"/>
+
 </div>
 
 <br/>
@@ -37,7 +41,7 @@ class ArushRai:
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,pytorch,fastapi,spring,docker,kubernetes,jenkins,postgres,redis,mongodb,react,nextjs&theme=dark" />
+<img src="https://skillicons.dev/icons?i=py,pytorch,fastapi,spring,docker,kubernetes,jenkins,postgres,redis,mongodb,react,nextjs&theme=dark&perline=6" />
 
 <br/><br/>
 
@@ -101,8 +105,16 @@ NLP-powered resume-JD match scoring with missing-skill suggestions. MLOps-style 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=8B5CF6&icon_color=8B5CF6" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=radical&hide_border=true&background=0d1117&ring=8B5CF6&fire=8B5CF6" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=8B5CF6&icon_color=8B5CF6&include_all_commits=true&count_private=true" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=radical&hide_border=true&background=0d1117&ring=8B5CF6&fire=8B5CF6&currStreakLabel=8B5CF6" width="48%"/>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=your-username&theme=react-dark&bg_color=0d1117&color=8B5CF6&line=8B5CF6&point=ffffff&hide_border=true&area=true" width="100%"/>
+
+<br/>
+
+<img src="https://github-readme-trophy.vercel.app/?username=your-username&theme=radical&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8" width="100%"/>
 
 <br/>
 

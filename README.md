@@ -1,12 +1,4 @@
-<div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/light.svg">
-  <img src="assets/dark.svg" alt="Arush Rai banner" width="100%">
-</picture>
-
-<br><br>
 
 <img src="assets/profile.png" width="160" height="160" style="border-radius:50%;object-fit:cover;" alt="Arush Rai" />
 

@@ -14,7 +14,7 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=your-username&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS"/>
+<img src="https://komarev.com/ghpvc/?username=arushrai007&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS"/>
 
 </div>
 
@@ -105,20 +105,20 @@ NLP-powered resume-JD match scoring with missing-skill suggestions. MLOps-style 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=8B5CF6&icon_color=8B5CF6&include_all_commits=true&count_private=true" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=radical&hide_border=true&background=0d1117&ring=8B5CF6&fire=8B5CF6&currStreakLabel=8B5CF6" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=arushrai007&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=8B5CF6&icon_color=8B5CF6&include_all_commits=true&count_private=true" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=arushrai007&theme=radical&hide_border=true&background=0d1117&ring=8B5CF6&fire=8B5CF6&currStreakLabel=8B5CF6" width="48%"/>
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=your-username&theme=react-dark&bg_color=0d1117&color=8B5CF6&line=8B5CF6&point=ffffff&hide_border=true&area=true" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=arushrai007&theme=react-dark&bg_color=0d1117&color=8B5CF6&line=8B5CF6&point=ffffff&hide_border=true&area=true" width="100%"/>
 
 <br/>
 
-<img src="https://github-readme-trophy.vercel.app/?username=your-username&theme=radical&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8" width="100%"/>
+<img src="https://github-readme-trophy.vercel.app/?username=arushrai007&theme=radical&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8" width="100%"/>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/your-username/your-username/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/arushrai007/arushrai007/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 
 </div>
 

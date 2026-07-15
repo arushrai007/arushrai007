@@ -105,9 +105,6 @@ NLP-powered resume-JD match scoring with missing-skill suggestions. MLOps-style 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=arushrai007&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=8B5CF6&icon_color=8B5CF6&include_all_commits=true&count_private=true" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=arushrai007&theme=radical&hide_border=true&background=0d1117&ring=8B5CF6&fire=8B5CF6&currStreakLabel=8B5CF6" width="48%"/>
-
 <br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=arushrai007&theme=react-dark&bg_color=0d1117&color=8B5CF6&line=8B5CF6&point=ffffff&hide_border=true&area=true" width="100%"/>

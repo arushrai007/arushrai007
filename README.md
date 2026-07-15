@@ -118,7 +118,6 @@ NLP-powered resume-JD match scoring with missing-skill suggestions. MLOps-style 
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/arushrai007/arushrai007/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 
 </div>
 

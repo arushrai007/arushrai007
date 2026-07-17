@@ -37,7 +37,7 @@ class ArushRai:
 
 <br/>
 
-## stack
+## Stack
 
 <div align="center">
 

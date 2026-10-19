@@ -1,123 +1,116 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=gradient&customColorList=2,6,14&text=ARUSH%20RAI&fontColor=ffffff&fontSize=50&fontAlignY=40&desc=AI%20/%20ML%20Engineer%20%E2%80%94%20Agentic%20Systems&descAlignY=60&descSize=18" width="100%"/>
+<!-- 01: HERO SECTION -->
+![Intro](./assets/hero.svg?v=1)
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=building+agents+that+reason%2C+not+just+respond;shipping+live+systems%2C+not+notebooks;LangGraph+%2B+RAG+%2B+distributed+infra" alt="typing"/>
+<!-- 02: CAPABILITIES & LIFE CAROUSEL -->
+![About](./assets/about-life.svg?v=1)
+
+<br/>
+
+<!-- 03: TECH STACK ORBITS -->
+![Stack](./assets/stack.svg?v=1)
+
+<br/>
+
+<!-- 04: VERIFIED CREDENTIALS & ID PASS -->
+![ID](./assets/id-dashboard.svg?v=1)
+
+<br/>
+
+<!-- 05: CONNECT SECTION -->
+![Connect](./assets/connect.svg?v=1)
+
+<br/>
+
+<!-- REAL CLICKABLE SOCIAL LINKS (GitHub SVGs cannot execute links in <img>) -->
+<a href="https://github.com/arushrai007">
+  <img src="https://img.shields.io/badge/GitHub-arushrai007-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="GitHub"/>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/arushrai/">
+  <img src="https://img.shields.io/badge/LinkedIn-Arush_Rai-0077b5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="https://portfolioarush.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-portfolioarush.vercel.app-247bff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Portfolio"/>
+</a>
+&nbsp;
+<a href="mailto:arushrai007@gmail.com">
+  <img src="https://img.shields.io/badge/Email-arushrai007@gmail.com-ff354f?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email"/>
+</a>
 
 <br/><br/>
-
-<a href="https://linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/-LinkedIn-000?style=flat-square&logo=linkedin&logoColor=8B5CF6&labelColor=000000"/></a>
-<a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/-Email-000?style=flat-square&logo=maildotru&logoColor=8B5CF6&labelColor=000000"/></a>
-<a href="https://your-portfolio-link.com"><img src="https://img.shields.io/badge/-Portfolio-000?style=flat-square&logo=vercel&logoColor=8B5CF6&labelColor=000000"/></a>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=arushrai007&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS"/>
 
 </div>
 
-<br/>
+---
 
-```
-class ArushRai:
-    def __init__(self):
-        self.role      = "B.Tech CSE Student"
-        self.focus     = "Agentic AI / RAG / Distributed Systems"
-        self.building  = "multi-agent systems with self-critique loops"
-        self.learning  = "advanced system design & distributed systems"
-
-    def credentials(self):
-        return [
-            "Top 5% — NPTEL Cloud Computing",
-            "200+ problems solved — LeetCode & GeeksforGeeks"
-        ]
-```
-
-<br/>
-
-## Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=py,pytorch,fastapi,spring,docker,kubernetes,jenkins,postgres,redis,mongodb,react,nextjs&theme=dark&perline=6" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/LangGraph-141414?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangChain-141414?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/Groq-141414?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/Qdrant-141414?style=for-the-badge&logoColor=white"/>
-
-</div>
-
-<br/>
-
-## work
+### 🚀 Featured Production Engineering
 
 <table>
-<tr>
-<td width="50%" valign="top">
-
-**The Dossier** — `AI investment research agent`
-
-Takes a company name, researches it live, drafts an Invest/Pass verdict, red-teams its own reasoning in an adversarial pass, then revises to a final call. Tracks past verdicts against real price movement.
-
-`LangGraph` `Llama 3.3 70B` `Tavily` `Next.js`
-
-</td>
-<td width="50%" valign="top">
-
-**Xeno** — `AI marketing strategist`
-
-Enter a business goal — an agent analyzes customer data, builds Shopper DNA clusters, recommends and generates campaigns, launches them, and tracks callbacks live.
-
-`FastAPI` `React + Vite` `Async Microservices`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**Doctel** — `multi-modal document intelligence`
-
-Production RAG system with Parent-Document Retrieval for precision search without context truncation. Sub-second semantic search across multi-PDF corpora, zero-downtime inference across 4 cloud services.
-
-`FastAPI` `Qdrant` `Llama 3.1` `Docker`
-
-</td>
-<td width="50%" valign="top">
-
-**Job-Jugad** — `AI job recommendation platform`
-
-NLP-powered resume-JD match scoring with missing-skill suggestions. MLOps-style CI/CD — Jenkins + GitHub Actions handle build, test, deploy on every commit, with live Prometheus/Grafana observability.
-
-`Spring Boot` `Kubernetes` `Jenkins`
-
-</td>
-</tr>
+  <thead>
+    <tr>
+      <th width="50%">System &amp; Architecture</th>
+      <th width="50%">Core Innovations &amp; Stack</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://github.com/arushrai007/AI-DOESSIER">
+          <b>The Dossier</b>
+        </a> — <i>Autonomous AI Investment Research Agent</i><br/><br/>
+        Autonomous multi-step equity research agent. Takes any company ticker, conducts live recursive web investigations, produces an initial Invest/Pass verdict, executes an adversarial red-team self-critique pass, and synthesizes a final verdict calibrated against historical price movement.
+      </td>
+      <td>
+        <b>Stack:</b> <code>LangGraph</code> <code>Llama 3.3 70B</code> <code>Tavily API</code> <code>Next.js</code><br/><br/>
+        <b>Key Pattern:</b> Self-critique loops, adversarial reflection, structured Pydantic schema outputs.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/arushrai007/Doc-tel">
+          <b>Doc-tel</b>
+        </a> — <i>Production Multi-Modal Document Intelligence</i><br/><br/>
+        Production-grade multi-modal RAG system engineered with <b>Parent-Document Retrieval</b> for ultra-high semantic precision without context truncation. Delivers sub-second semantic search across complex multi-PDF corpora with zero-downtime inference.
+      </td>
+      <td>
+        <b>Stack:</b> <code>FastAPI</code> <code>Qdrant Vector DB</code> <code>Llama 3.1</code> <code>Docker</code><br/><br/>
+        <b>Key Pattern:</b> Parent-child chunk indexing, dense vector search, containerized deployment.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/arushrai007/Xeno---AI-Marketing-Strategist">
+          <b>Xeno</b>
+        </a> — <i>Autonomous AI Marketing Strategist</i><br/><br/>
+        High-throughput goal-driven agent system. Ingests raw consumer behavior, generates dynamic Shopper DNA clusters, drafts and schedules tailored omnichannel campaigns, and monitors real-time feedback loops.
+      </td>
+      <td>
+        <b>Stack:</b> <code>FastAPI</code> <code>React + Vite</code> <code>Async Microservices</code><br/><br/>
+        <b>Key Pattern:</b> Unsupervised behavioral clustering, async message queues, live feedback streaming.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/arushrai007/MultiAgent-Ai-code-debugger-and-PR-patch-Generator">
+          <b>MultiAgent Code Debugger &amp; PR Patch Generator</b>
+        </a> — <i>Self-Healing Code Agent</i><br/><br/>
+        Multi-agent swarm that parses Git diffs, runs static and semantic code inspections, identifies regression bugs, formulates automated code fixes, and submits verified PR patches with explanations.
+      </td>
+      <td>
+        <b>Stack:</b> <code>LangGraph</code> <code>Python</code> <code>Git API</code> <code>LLM Multi-Agent Swarm</code><br/><br/>
+        <b>Key Pattern:</b> Planner-actor-critic agent hierarchy, automated AST patching.
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 <br/>
 
-## activity
-
 <div align="center">
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=arushrai007&theme=react-dark&bg_color=0d1117&color=8B5CF6&line=8B5CF6&point=ffffff&hide_border=true&area=true" width="100%"/>
-
-<br/>
-
-<img src="https://github-readme-trophy.vercel.app/?username=arushrai007&theme=radical&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8" width="100%"/>
-
-<br/>
-
-
+  <sub>Built with precision for <a href="https://github.com/arushrai007">@arushrai007</a> • Designed with electric-blue &amp; crimson aesthetics • Self-contained GitHub SVGs</sub>
 </div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=2,6,14&section=footer" width="100%"/>

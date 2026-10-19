@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 440" width="850" height="440">
+  <defs>
+    <linearGradient id="stk-border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ff354f" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="stk-orbit1-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#247bff" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="stk-orbit2-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="stk-orbit3-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff354f" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#f43f5e" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ff354f" stop-opacity="0.8"/>
+    </linearGradient>
+    <pattern id="stk-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes stk-pulse-core {
+      0%, 100% { transform: scale(1); opacity: 0.9; }
+      50% { transform: scale(1.05); opacity: 1; }
+    }
+    .core-node {
+      transform-origin: 425px 145px;
+      animation: stk-pulse-core 3s ease-in-out infinite;
+    }
+    .orbit-badge {
+      transition: transform 0.2s;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .core-node { animation: none !important; }
+    }
+  </style>
+
+  <!-- Base Container -->
+  <rect x="1" y="1" width="848" height="438" rx="16" fill="#070b16"/>
+  <rect x="1" y="1" width="848" height="438" rx="16" fill="url(#stk-dots)"/>
+  <rect x="1" y="1" width="848" height="438" rx="16" fill="none" stroke="url(#stk-border-grad)" stroke-width="1.5"/>
+
+  <!-- Section Header -->
+  <g transform="translate(40, 36)">
+    <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" fill="#247bff" letter-spacing="2">02 // TECH STACK &amp; SYSTEM ORBITS</text>
+    <line x1="280" y1="-4" x2="810" y2="-4" stroke="#1e293b" stroke-width="1"/>
+  </g>
+
+  <!-- 3 Tilted Elliptical Orbits (Centered around 425, 145, rotated -7 deg) -->
+  <g transform="rotate(-7 425 145)">
+    <!-- Outer Orbit (AI &amp; Core Frameworks) -->
+    <ellipse cx="425" cy="145" rx="335" ry="78" fill="none" stroke="url(#stk-orbit1-grad)" stroke-width="1.5" stroke-dasharray="6,4"/>
+    
+    <!-- Middle Orbit (Backend &amp; Infra) -->
+    <ellipse cx="425" cy="145" rx="230" ry="54" fill="none" stroke="url(#stk-orbit2-grad)" stroke-width="1.5" stroke-dasharray="5,3"/>
+    
+    <!-- Inner Orbit (Primary Agents &amp; Runtime) -->
+    <ellipse cx="425" cy="145" rx="130" ry="32" fill="none" stroke="url(#stk-orbit3-grad)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Glowing Core Node -->
+  <g class="core-node" transform="translate(425, 145)">
+    <circle cx="0" cy="0" r="32" fill="#0c1b33" stroke="#247bff" stroke-width="2"/>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#247bff" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="0" y="-4" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="800" fill="#93c5fd" letter-spacing="1">ARUSH</text>
+    <text x="0" y="10" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#ff354f" letter-spacing="1.5">AI CORE</text>
+  </g>
+
+  <!-- Nodes Placed along Orbits -->
+  <!-- Outer Orbit Nodes -->
+  <!-- 1. LangGraph -->
+  <g class="orbit-badge" transform="translate(100, 155)">
+    <rect x="0" y="-14" width="105" height="28" rx="14" fill="#0f172a" stroke="#247bff" stroke-width="1.2"/>
+    <circle cx="14" cy="0" r="5" fill="#247bff"/>
+    <text x="26" y="4" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#ffffff">LangGraph</text>
+  </g>
+
+  <!-- 2. PyTorch -->
+  <g class="orbit-badge" transform="translate(240, 75)">
+    <rect x="0" y="-14" width="85" height="28" rx="14" fill="#0f172a" stroke="#ff354f" stroke-width="1.2"/>
+    <circle cx="14" cy="0" r="5" fill="#ff354f"/>
+    <text x="26" y="4" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#ffffff">PyTorch</text>
+  </g>
+
+  <!-- 3. Docker -->
+  <g class="orbit-badge" transform="translate(520, 80)">
+    <rect x="0" y="-14" width="85" height="28" rx="14" fill="#0f172a" stroke="#247bff" stroke-width="1.2"/>
+    <path d="M13.983 11.078h2.119a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.119a.185.185 0 00-.185.185v1.888c0 .102.083.185.185.185m-2.954-5.43h2.118a.186.186 0 00.186-.186V3.574a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m0 2.716h2.118a.187.187 0 00.186-.186V6.29a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.887c0 .102.082.186.185.186m-2.93 0h2.12a.186.186 0 00.184-.186V6.29a.185.185 0 00-.185-.185H8.1a.185.185 0 00-.185.185v1.887c0 .102.083.186.185.186m-2.964 0h2.119a.186.186 0 00.185-.186V6.29a.185.185 0 00-.185-.185H5.136a.186.186 0 00-.186.185v1.887c0 .102.084.186.186.186m5.893 2.715h2.119a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.119a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m-2.93 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.083.185.185.185m-2.964 0h2.119a.185.185 0 00.185-.185V9.006a.185.185 0 00-.185-.186H5.136a.186.186 0 00-.186.185v1.888c0 .102.084.185.186.185m-2.928 0h2.119a.185.185 0 00.185-.185V9.006a.185.185 0 00-.185-.186H2.208a.185.185 0 00-.185.185v1.888c0 .102.083.185.185.185M23.63 10.3c-.347-.216-.92-.338-1.558-.29-.142-.71-.533-1.378-1.12-1.916l-.377-.34-.35.367c-.52.545-.827 1.258-.87 2.015-.47.163-.984.34-1.517.533H.185A.186.186 0 000 10.854v2.73c0 .546.06 1.077.178 1.583.568 2.457 2.44 4.384 4.88 5.02 1.625.424 3.488.513 5.46.262 3.82-.486 7.07-2.348 8.92-5.112.59-.88.98-1.85 1.15-2.88.58-.07 1.58-.23 2.19-.94.34-.39.52-.89.52-1.48 0-.31-.05-.58-.15-.81" transform="translate(8, -8) scale(0.65)" fill="#247bff"/>
+    <text x="28" y="4" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#ffffff">Docker</text>
+  </g>
+
+  <!-- 4. Kubernetes -->
+  <g class="orbit-badge" transform="translate(660, 155)">
+    <rect x="0" y="-14" width="110" height="28" rx="14" fill="#0f172a" stroke="#3b82f6" stroke-width="1.2"/>
+    <path d="M12.001 0a2.38 2.38 0 00-.912.18L3.255 3.755a2.41 2.41 0 00-1.42 2.183v8.124a2.41 2.41 0 001.42 2.183l7.834 3.575a2.41 2.41 0 001.824 0l7.834-3.575a2.41 2.41 0 001.42-2.183V5.938a2.41 2.41 0 00-1.42-2.183L12.913.18A2.38 2.38 0 0012.001 0zm0 3.238l5.85 2.668-2.22 3.845a5.77 5.77 0 00-7.26 0L6.151 5.906l5.85-2.668zm-5.46 5.864l2.22 3.845a5.77 5.77 0 003.24 4.936V20.5l-5.46-2.491V9.102zm10.92 0v8.907L12 20.5v-2.617a5.77 5.77 0 003.24-4.936l2.22-3.845z" transform="translate(8, -8) scale(0.65)" fill="#3b82f6"/>
+    <text x="28" y="4" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#ffffff">Kubernetes</text>
+  </g>
+
+  <!-- Middle Orbit Nodes -->
+  <!-- 5. FastAPI -->
+  <g class="orbit-badge" transform="translate(200, 175)">
+    <rect x="0" y="-14" width="85" height="28" rx="14" fill="#0f172a" stroke="#10b981" stroke-width="1.2"/>
+    <circle cx="14" cy="0" r="5" fill="#10b981"/>
+    <text x="26" y="4" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#ffffff">FastAPI</text>
+  </g>
+
+  <!-- 6. Qdrant -->
+  <g class="orbit-badge" transform="translate(340, 95)">
+    <rect x="0" y="-14" width="85" height="28" rx="14" fill="#0f172a" stroke="#ff354f" stroke-width="1.2"/>
+    <circle cx="14" cy="0" r="5" fill="#ff354f"/>
+    <text x="26" y="4" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#ffffff">Qdrant</text>
+  </g>
+
+  <!-- 7. Spring Boot -->
+  <g class="orbit-badge" transform="translate(560, 185)">
+    <rect x="0" y="-14" width="105" height="28" rx="14" fill="#0f172a" stroke="#22c55e" stroke-width="1.2"/>
+    <circle cx="14" cy="0" r="5" fill="#22c55e"/>
+    <text x="26" y="4" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#ffffff">Spring Boot</text>
+  </g>
+
+  <!-- Inner Orbit Nodes -->
+  <!-- 8. Python -->
+  <g class="orbit-badge" transform="translate(320, 175)">
+    <rect x="0" y="-13" width="80" height="26" rx="13" fill="#0c1b33" stroke="#eab308" stroke-width="1.2"/>
+    <path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26v2.9H13.8v-.93l-.04-.3-.1-.28-.17-.25-.26-.23-.35-.2-.46-.16-.57-.1-.7-.04-1.04.03-.73.12-.6.2-.48.27-.38.35-.27.4-.17.43-.07.45v2.9h6.14l.43.04.4.1.35.16.3.2.23.25.17.3.1.32.04.35v6.52l-.04.35-.1.33-.17.3-.23.25-.3.2-.35.15-.4.1-.43.05H13.8v-3.03h3.5v-.87H8.76l-.43-.04-.4-.1-.35-.16-.3-.2-.23-.25-.17-.3-.1-.32-.04-.35V7.4l.04-.35.1-.33.17-.3.23-.25.3-.2.35-.15.4-.1.43-.05h6.14V2.26l.04-.34.1-.32.17-.3.23-.25.3-.2.35-.15.4-.1.43-.05.74-.03z" transform="translate(7, -7) scale(0.6)" fill="#eab308"/>
+    <text x="25" y="4" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">Python</text>
+  </g>
+
+  <!-- 9. React -->
+  <g class="orbit-badge" transform="translate(460, 115)">
+    <rect x="0" y="-13" width="75" height="26" rx="13" fill="#0c1b33" stroke="#06b6d4" stroke-width="1.2"/>
+    <path d="M14.23 12.004c0 1.231-.999 2.23-2.23 2.23s-2.23-.999-2.23-2.23.999-2.23 2.23-2.23 2.23.999 2.23 2.23zm7.765 0c0-1.638-.973-3.197-2.67-4.275C17.65 6.666 15.01 6 12 6s-5.65.666-7.325 1.729C2.978 8.807 2.005 10.366 2.005 12.004c0 1.638.973 3.197 2.67 4.275C6.35 17.342 8.99 18.008 12 18.008s5.65-.666 7.325-1.729c1.697-1.078 2.67-2.637 2.67-4.275zm-3.328 0c0 .942-.647 1.954-1.895 2.748-1.393.886-3.36 1.394-5.502 1.394-2.142 0-4.109-.508-5.502-1.394-1.248-.794-1.895-1.806-1.895-2.748 0-.942.647-1.954 1.895-2.748C4.563 8.368 6.53 7.86 8.672 7.86c2.142 0 4.109.508 5.502 1.394 1.248.794 1.895 1.806 1.895 2.748z" transform="translate(7, -7) scale(0.6)" fill="#06b6d4"/>
+    <text x="25" y="4" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">React</text>
+  </g>
+
+  <!-- Bottom Grouped Stack Chips (y=255 to 415) -->
+  <g transform="translate(40, 250)">
+    <!-- Row 1: Agentic &amp; AI -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="125" height="26" rx="6" fill="#0f172a" stroke="#247bff" stroke-width="1"/>
+      <text x="10" y="17" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#93c5fd">AGENTIC &amp; AI</text>
+      
+      <!-- Chips -->
+      <g transform="translate(138, 0)">
+        <!-- LangGraph -->
+        <rect x="0" y="0" width="92" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="10" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">LangGraph</text>
+        
+        <!-- LangChain -->
+        <rect x="100" y="0" width="90" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="110" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">LangChain</text>
+
+        <!-- PyTorch -->
+        <rect x="198" y="0" width="76" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="208" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">PyTorch</text>
+
+        <!-- Qdrant -->
+        <rect x="282" y="0" width="72" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="292" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">Qdrant</text>
+
+        <!-- Groq -->
+        <rect x="362" y="0" width="60" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="372" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">Groq</text>
+
+        <!-- Llama 3.3 -->
+        <rect x="430" y="0" width="88" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="440" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">Llama 3.3</text>
+
+        <!-- Tavily -->
+        <rect x="526" y="0" width="68" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="536" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">Tavily</text>
+      </g>
+    </g>
+
+    <!-- Row 2: Backend &amp; Cloud -->
+    <g transform="translate(0, 36)">
+      <rect x="0" y="0" width="125" height="26" rx="6" fill="#0f172a" stroke="#ff354f" stroke-width="1"/>
+      <text x="10" y="17" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#fca5a5">BACKEND/CLOUD</text>
+      
+      <!-- Chips -->
+      <g transform="translate(138, 0)">
+        <rect x="0" y="0" width="74" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="10" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">FastAPI</text>
+
+        <rect x="82" y="0" width="94" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="92" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">Spring Boot</text>
+
+        <rect x="184" y="0" width="68" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="194" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">Docker</text>
+
+        <rect x="260" y="0" width="94" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="270" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">Kubernetes</text>
+
+        <rect x="362" y="0" width="74" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="372" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">Jenkins</text>
+
+        <rect x="444" y="0" width="92" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="454" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">PostgreSQL</text>
+
+        <rect x="544" y="0" width="58" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="554" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">Redis</text>
+      </g>
+    </g>
+
+    <!-- Row 3: Frontend &amp; Systems -->
+    <g transform="translate(0, 72)">
+      <rect x="0" y="0" width="125" height="26" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1"/>
+      <text x="10" y="17" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#6ee7b7">FRONTEND/ENV</text>
+      
+      <!-- Chips -->
+      <g transform="translate(138, 0)">
+        <rect x="0" y="0" width="64" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="10" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">React</text>
+
+        <rect x="72" y="0" width="70" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="82" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">Next.js</text>
+
+        <rect x="150" y="0" width="92" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="160" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">TypeScript</text>
+
+        <rect x="250" y="0" width="54" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="260" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">Vite</text>
+
+        <rect x="312" y="0" width="60" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="322" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">Linux</text>
+
+        <rect x="380" y="0" width="48" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="390" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">Git</text>
+
+        <rect x="436" y="0" width="108" height="26" rx="6" fill="#0b1120" stroke="#1e293b"/>
+        <text x="446" y="17" font-family="'Segoe UI', sans-serif" font-size="11.5" fill="#e2e8f0">System Design</text>
+      </g>
+    </g>
+  </g>
+</svg>

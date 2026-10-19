@@ -1,27 +1,27 @@
 <div align="center">
 
 <!-- 01: HERO SECTION -->
-![Intro](./assets/hero.svg?v=1)
+![Intro](./assets/hero.svg?v=2)
 
 <br/>
 
 <!-- 02: CAPABILITIES & LIFE CAROUSEL -->
-![About](./assets/about-life.svg?v=1)
+![About](./assets/about-life.svg?v=2)
 
 <br/>
 
 <!-- 03: TECH STACK ORBITS -->
-![Stack](./assets/stack.svg?v=1)
+![Stack](./assets/stack.svg?v=2)
 
 <br/>
 
 <!-- 04: VERIFIED CREDENTIALS & ID PASS -->
-![ID](./assets/id-dashboard.svg?v=1)
+![ID](./assets/id-dashboard.svg?v=2)
 
 <br/>
 
 <!-- 05: CONNECT SECTION -->
-![Connect](./assets/connect.svg?v=1)
+![Connect](./assets/connect.svg?v=2)
 
 <br/>
 

@@ -12,57 +12,10 @@
     <pattern id="abt-dots" width="20" height="20" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1" fill="#334155" opacity="0.35"/>
     </pattern>
-    <clipPath id="abt-bar1-clip"><rect x="0" y="0" width="110" height="4" rx="2"/></clipPath>
-    <clipPath id="abt-bar2-clip"><rect x="0" y="0" width="110" height="4" rx="2"/></clipPath>
-    <clipPath id="abt-bar3-clip"><rect x="0" y="0" width="110" height="4" rx="2"/></clipPath>
+    <clipPath id="abt-bar1-clip"><rect x="0" y="0" width="108" height="4" rx="2"/></clipPath>
+    <clipPath id="abt-bar2-clip"><rect x="0" y="0" width="108" height="4" rx="2"/></clipPath>
+    <clipPath id="abt-bar3-clip"><rect x="0" y="0" width="108" height="4" rx="2"/></clipPath>
   </defs>
-
-  <style>
-    /* Carousel 12s total: 4s per slide */
-    @keyframes abt-slide1 {
-      0%, 30% { opacity: 1; transform: translateY(0); }
-      33%, 97% { opacity: 0; transform: translateY(12px); }
-      100% { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes abt-slide2 {
-      0%, 30% { opacity: 0; transform: translateY(-12px); }
-      33%, 63% { opacity: 1; transform: translateY(0); }
-      66%, 100% { opacity: 0; transform: translateY(12px); }
-    }
-    @keyframes abt-slide3 {
-      0%, 63% { opacity: 0; transform: translateY(-12px); }
-      66%, 97% { opacity: 1; transform: translateY(0); }
-      100% { opacity: 0; transform: translateY(12px); }
-    }
-
-    /* Segmented Progress Bars */
-    @keyframes abt-fill1 {
-      0% { width: 0; }
-      30%, 100% { width: 110px; }
-    }
-    @keyframes abt-fill2 {
-      0%, 33% { width: 0; }
-      63%, 100% { width: 110px; }
-    }
-    @keyframes abt-fill3 {
-      0%, 66% { width: 0; }
-      97%, 100% { width: 110px; }
-    }
-
-    .slide-1 { animation: abt-slide1 12s infinite; }
-    .slide-2 { animation: abt-slide2 12s infinite; }
-    .slide-3 { animation: abt-slide3 12s infinite; }
-
-    .bar-1 { animation: abt-fill1 12s infinite; }
-    .bar-2 { animation: abt-fill2 12s infinite; }
-    .bar-3 { animation: abt-fill3 12s infinite; }
-
-    @media (prefers-reduced-motion: reduce) {
-      .slide-1 { opacity: 1 !important; transform: none !important; animation: none !important; }
-      .slide-2, .slide-3 { display: none !important; }
-      .bar-1, .bar-2, .bar-3 { animation: none !important; width: 110px !important; }
-    }
-  </style>
 
   <!-- Base Container -->
   <rect x="1" y="1" width="848" height="378" rx="16" fill="#070b16"/>
@@ -75,7 +28,7 @@
     <line x1="300" y1="-4" x2="810" y2="-4" stroke="#1e293b" stroke-width="1"/>
   </g>
 
-  <!-- Left Column: Capabilities (x=40, y=65) -->
+  <!-- Left Column: Capabilities (x=40, width=365) -->
   <g transform="translate(40, 65)">
     <!-- Capability 1 -->
     <g transform="translate(0, 0)">
@@ -108,12 +61,12 @@
     </g>
   </g>
 
-  <!-- Right Column: 3-Slide Interests Carousel (x=430, y=65) -->
+  <!-- Right Column: 3-Slide Interests Carousel (x=430, width=380) -->
   <g transform="translate(430, 65)">
     <!-- Container Card -->
     <rect x="0" y="0" width="380" height="281" rx="14" fill="#0a101f" stroke="#247bff" stroke-opacity="0.35" stroke-width="1.2"/>
     
-    <!-- Carousel Top Bar -->
+    <!-- Header -->
     <g transform="translate(20, 26)">
       <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#93c5fd" letter-spacing="1.5">ROTATING PERSPECTIVE // 4s CYCLE</text>
       <circle cx="330" cy="-4" r="3.5" fill="#247bff">
@@ -122,90 +75,81 @@
     </g>
     <line x1="20" y1="38" x2="360" y2="38" stroke="#1e293b" stroke-width="1"/>
 
-    <!-- Slide 1 -->
-    <g class="slide-1" transform="translate(20, 65)">
+    <!-- SLIDE 1 (Visible by default; 0s-4s) -->
+    <g transform="translate(20, 65)" opacity="1">
+      <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.31;0.33;0.64;0.66;0.98;1" dur="12s" repeatCount="indefinite"/>
       <rect x="0" y="0" width="160" height="22" rx="6" fill="#0c1e3d"/>
       <text x="10" y="15" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#60a5fa">SLIDE 01 : AGENTIC AI</text>
       
       <text x="0" y="45" font-family="'Segoe UI', sans-serif" font-size="17" font-weight="800" fill="#ffffff">Reasoning Over Autocomplete</text>
       
-      <text x="0" y="73" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8" width="340">
-        "I build agentic architectures that plan, reason,
-      </text>
-      <text x="0" y="93" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">
-        and self-critique before executing. Real AI value
-      </text>
-      <text x="0" y="113" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">
-        lies in deterministic verification loops, not raw tokens."
-      </text>
+      <text x="0" y="73" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">"I build agentic architectures that plan, reason,</text>
+      <text x="0" y="93" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">and self-critique before executing. Real AI value</text>
+      <text x="0" y="113" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">lies in deterministic verification loops, not raw tokens."</text>
 
       <rect x="0" y="132" width="230" height="24" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
       <text x="10" y="148" font-family="'JetBrains Mono', monospace" font-size="10" fill="#93c5fd">LangGraph • Tavily • Llama 3.3 • RAG</text>
     </g>
 
-    <!-- Slide 2 -->
-    <g class="slide-2" transform="translate(20, 65)">
+    <!-- SLIDE 2 (Default opacity=0; 4s-8s) -->
+    <g transform="translate(20, 65)" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.31;0.33;0.64;0.66;0.98;1" dur="12s" repeatCount="indefinite"/>
       <rect x="0" y="0" width="180" height="22" rx="6" fill="#2d1522"/>
       <text x="10" y="15" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#f87171">SLIDE 02 : ALGORITHMIC RIGOR</text>
       
       <text x="0" y="45" font-family="'Segoe UI', sans-serif" font-size="17" font-weight="800" fill="#ffffff">200+ Competitive DSA Solved</text>
       
-      <text x="0" y="73" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">
-        "Consistent problem solving across LeetCode &amp; GFG.
-      </text>
-      <text x="0" y="93" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">
-        Deep focus on graph traversals, dynamic programming,
-      </text>
-      <text x="0" y="113" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">
-        and optimal time/space complexity guarantees."
-      </text>
+      <text x="0" y="73" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">"Consistent problem solving across LeetCode &amp; GFG.</text>
+      <text x="0" y="93" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">Deep focus on graph traversals, dynamic programming,</text>
+      <text x="0" y="113" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">and optimal time/space complexity guarantees."</text>
 
       <rect x="0" y="132" width="220" height="24" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
       <text x="10" y="148" font-family="'JetBrains Mono', monospace" font-size="10" fill="#fca5a5">LeetCode • GFG • NeetCode • Java/Py</text>
     </g>
 
-    <!-- Slide 3 -->
-    <g class="slide-3" transform="translate(20, 65)">
+    <!-- SLIDE 3 (Default opacity=0; 8s-12s) -->
+    <g transform="translate(20, 65)" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.64;0.66;0.97;0.98;0.99;1" dur="12s" repeatCount="indefinite"/>
       <rect x="0" y="0" width="180" height="22" rx="6" fill="#0e2329"/>
       <text x="10" y="15" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#34d399">SLIDE 03 : CLOUD SCALE</text>
       
       <text x="0" y="45" font-family="'Segoe UI', sans-serif" font-size="17" font-weight="800" fill="#ffffff">Top 5% NPTEL Cloud Computing</text>
       
-      <text x="0" y="73" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">
-        "Ranked in national top tier for cloud computing.
-      </text>
-      <text x="0" y="93" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">
-        Architecting distributed pipelines that handle
-      </text>
-      <text x="0" y="113" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">
-        sub-second inference and zero-downtime deploys."
-      </text>
+      <text x="0" y="73" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">"Ranked in national top tier for cloud computing.</text>
+      <text x="0" y="93" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">Architecting distributed pipelines that handle</text>
+      <text x="0" y="113" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">sub-second inference and zero-downtime deploys."</text>
 
       <rect x="0" y="132" width="225" height="24" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
       <text x="10" y="148" font-family="'JetBrains Mono', monospace" font-size="10" fill="#6ee7b7">Docker • Kubernetes • Jenkins • Redis</text>
     </g>
 
-    <!-- Segmented Progress Bars (y=245) -->
+    <!-- Segmented Progress Bars (y=252) -->
     <g transform="translate(20, 252)">
       <!-- Segment 1 -->
       <g transform="translate(0, 0)">
         <rect x="0" y="0" width="108" height="4" rx="2" fill="#1e293b"/>
         <g clip-path="url(#abt-bar1-clip)">
-          <rect class="bar-1" x="0" y="0" width="0" height="4" fill="url(#abt-bar-grad)"/>
+          <rect x="0" y="0" width="0" height="4" fill="url(#abt-bar-grad)">
+            <animate attributeName="width" values="0;108;108;108;0" keyTimes="0;0.31;0.98;0.99;1" dur="12s" repeatCount="indefinite"/>
+          </rect>
         </g>
       </g>
       <!-- Segment 2 -->
       <g transform="translate(116, 0)">
         <rect x="0" y="0" width="108" height="4" rx="2" fill="#1e293b"/>
         <g clip-path="url(#abt-bar2-clip)">
-          <rect class="bar-2" x="0" y="0" width="0" height="4" fill="url(#abt-bar-grad)"/>
+          <rect x="0" y="0" width="0" height="4" fill="url(#abt-bar-grad)">
+            <animate attributeName="width" values="0;0;108;108;0" keyTimes="0;0.33;0.64;0.98;1" dur="12s" repeatCount="indefinite"/>
+          </rect>
         </g>
       </g>
       <!-- Segment 3 -->
       <g transform="translate(232, 0)">
         <rect x="0" y="0" width="108" height="4" rx="2" fill="#1e293b"/>
         <g clip-path="url(#abt-bar3-clip)">
-          <rect class="bar-3" x="0" y="0" width="0" height="4" fill="url(#abt-bar-grad)"/>
+          <rect x="0" y="0" width="0" height="4" fill="url(#abt-bar-grad)">
+            <animate attributeName="width" values="0;0;108;0" keyTimes="0;0.66;0.97;1" dur="12s" repeatCount="indefinite"/>
+          </rect>
         </g>
       </g>
     </g>
